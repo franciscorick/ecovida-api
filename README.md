@@ -1,2 +1,2 @@
-# ecovida-api
+# ecovida
 projeto do paq
