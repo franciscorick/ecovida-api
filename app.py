@@ -10,6 +10,10 @@ CORS(app)  # Allow all origins
 def home():
     return jsonify({"message": "hello world"})
 
+@app.route('/chico')
+def chico():   
+    return jsonify({"message": "hello chico"})
+
 # Lista os biomas disponíveis
 @app.route('/api/biomas', methods=['GET'])
 def buscar_biomas():
